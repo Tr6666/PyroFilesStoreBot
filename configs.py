@@ -46,7 +46,4 @@ Also remember that developer will Delete Adult Contents from Database. So better
 [Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
-
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
-"""
+Hello [{}](tg://user?id={})\n\n ✋☁️ This Is A Unlimited Telegram Could Storage Bot For Jdisk.in. Send Me Any File And Select Method Wait Few Seconds Bot Will Be Upload In Our Server And Genarate Link For Files. ⚡\n\nCurrently Supported Format :\n\n⟴ File 📁\n⟴ Video 🎥\n⟴ Audio 🎙️\n\nMore Format Soon ⚡"""
