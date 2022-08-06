@@ -130,7 +130,7 @@ async def main(bot: Client, message: Message):
         await message.reply_text(
             text="**Choose an option To Upload Your Files**",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Upload To More Files", callback_data="addToBatchTrue")],
+                [InlineKeyboardButton("Upload To Batch", callback_data="addToBatchTrue")],
                 [InlineKeyboardButton("Upload To Single File", callback_data="addToBatchFalse")]
             ]),
             quote=True,
@@ -434,7 +434,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             MediaList[f"{str(cmd.from_user.id)}"] = []
         file_id = cmd.message.reply_to_message.id
         MediaList[f"{str(cmd.from_user.id)}"].append(file_id)
-        await cmd.message.edit("Files Downloaded Successfully ✅\n\n"
+        await cmd.message.edit("Files Saved Successfully ✅\n\n"
                                "Press below button to get batch link.",
                                reply_markup=InlineKeyboardMarkup([
                                    [InlineKeyboardButton("Get Link", callback_data="getBatchLink")],
