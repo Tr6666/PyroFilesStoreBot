@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Up", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("⚙️ ʜᴏᴡ ᴛᴏ ᴜsᴇ ⚙️", url="https://t.me/JdiskOfficial")
                     ]
                 ]
             )
