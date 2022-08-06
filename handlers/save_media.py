@@ -51,11 +51,11 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=Jdisk_{str_to_b64(str(SaveMessage.id))}"
         await editable.edit(
-            f"**Batch Files Stored in My Disk**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
-            f"Just Click the link to get your files!",
+            f"**Your Files Uploaded Successfully ✅\n\n🔗 Your File Link : {share_link} \n\n"
+            f"Just Click the link And Click Start get your files!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Click To Shorten", url="https://t.me/share/url?url={share_link}")]]
+                 [InlineKeyboardButton("Click To Shorten", url="https://t.me/share/url?url=share_link")]]
              ),
             disable_web_page_preview=True
         )
@@ -88,14 +88,13 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             disable_web_page_preview=True)
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=Jdisk_{str_to_b64(file_er_id)}"
         await editable.edit(
-            "**Your File Stored in my Database!**\n\n"
-            f"Here is the Permanent Link of your file: {share_link} \n\n"
-            "Just Click the link to get your file!",
+            "**Your File Uploaded Successfully ✅**\n\n"
+            f"Your File Link\n{share_link} \n\n"
+            "Just Click the link And Click Start get your files!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/JoinOT")]]
-            ),
+                 [InlineKeyboardButton("Click To Shorten", url="https://t.me/share/url?url=share_link")]]
+             ),
             disable_web_page_preview=True
         )
     except FloodWait as sl:
