@@ -46,4 +46,4 @@ Also remember that developer will Delete Adult Contents from Database. So better
 [Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
 """
 	HOME_TEXT = """
-Hello [{}](tg://user?id={})✋\n\n☁️ This Is A Unlimited Telegram Could Storage Bot For Jdisk.in. Send Me Any File And Select Method Wait Few Seconds Bot Will Be Upload In Our Server And Genarate Link For Files. ⚡\n\nCurrently Supported Format :\n\n⟴ File 📁\n⟴ Video 🎥\n⟴ Photo 🖼️\n⟴ Audio 🎙️\n\nMore Format Soon ⚡"""
+Hello [{}](tg://user?id={})✋\n\n☁️ This Is A Unlimited Telegram Could Storage Bot For Jdisk.in. Send Me Any File And Select Method Wait Few Seconds Bot Will Be Upload In Our Server And Genarate Link For Files. ⚡\n\nCurrently Supported Format :\n\n⟴ File 📁\n⟴ Video 🎥\n⟴ Photo 🖼️\n⟴ Audio 🎙️\n\nMore Format Soon ⚡\n\nNote : 𝗬𝗢𝗨 𝗖𝗔𝗡 𝗔𝗟𝗦𝗢 𝗨𝗣𝗟𝗢𝗔𝗗 𝟰𝗚𝗕 𝗙𝗜𝗟𝗘𝗦 📥"""
